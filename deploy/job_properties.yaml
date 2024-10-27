@@ -23,9 +23,8 @@ environments:
                   python_wheel_task:
                     package_name: "premji_invest"
                     entry_point: "pipeline1"
-                  existing_cluster_id: "your-cluster-id"
                   libraries:
-                    - whl: "wheel_file"
+                    - whl: "wheel_file_add_here"
                   email_notifications:
                   on_start:
                      - "email"
@@ -39,5 +38,31 @@ environments:
                   retry_on_timeout: true
                   schedule:
                     quartz_cron_expression: "0 30 13 * * ?"
+                    timezone_id: "Asia/Kolkata"
+                    pause_status: "UNPAUSED"
+            - name: "pipeline2"
+              job_cluster:
+                - job_cluster_key: multi_node_cluster
+                  new_cluster: *multi_node_cpu_cluster
+              tasks:
+                - task_key: "pipelin2"
+                  python_wheel_task:
+                    package_name: "premji_invest"
+                    entry_point: "pipeline2"
+                  libraries:
+                    - whl: "wheel_file_add_here"
+                  email_notifications:
+                  on_start:
+                     - "email"
+                  on_success:
+                     - "email"
+                  on_failure:
+                     - "email"
+                  timeout_seconds: 3600
+                  max_retries: 2
+                  min_retry_interval_millis: 300000
+                  retry_on_timeout: true
+                  schedule:
+                    quartz_cron_expression: "0 30 14 * * ?"
                     timezone_id: "Asia/Kolkata"
                     pause_status: "UNPAUSED"
