@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: premji_invest
+Version: 1.0
+Author: Navnitan
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas==2.2.1
+Requires-Dist: scikit-learn
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: selenium==4.25.0
+Requires-Dist: webdriver-manager==4.0.2

@@ -1,0 +1,3 @@
+[console_scripts]
+pipeline1 = main:pipeline1
+pipeline2 = main:pipeline2
