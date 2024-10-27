@@ -1,0 +1,81 @@
+age_group,occupation,genre,rating_count
+20-25,administrator,Drama,93
+20-25,artist,Drama,166
+20-25,educator,Thriller,12
+20-25,engineer,Drama,747
+20-25,entertainment,Drama,290
+20-25,executive,Thriller,30
+20-25,healthcare,Drama,309
+20-25,homemaker,Action,21
+20-25,lawyer,Thriller,15
+20-25,librarian,Drama,41
+20-25,marketing,Drama,91
+20-25,none,Action,120
+20-25,other,Drama,487
+20-25,programmer,Drama,470
+20-25,salesman,Comedy,123
+20-25,scientist,Drama,58
+20-25,student,Drama,3124
+20-25,technician,Drama,434
+20-25,writer,Drama,263
+25-35,administrator,Drama,957
+25-35,artist,Drama,426
+25-35,doctor,Drama,149
+25-35,educator,Drama,1112
+25-35,engineer,Drama,819
+25-35,entertainment,Drama,426
+25-35,executive,Drama,614
+25-35,healthcare,Drama,103
+25-35,homemaker,Drama,50
+25-35,lawyer,Comedy,295
+25-35,librarian,Drama,1212
+25-35,marketing,Drama,241
+25-35,none,Action,56
+25-35,other,Drama,1968
+25-35,programmer,Drama,1420
+25-35,salesman,Drama,158
+25-35,scientist,Drama,408
+25-35,student,Drama,1914
+25-35,technician,Drama,478
+25-35,writer,Drama,903
+35-45,administrator,Drama,963
+35-45,artist,Drama,241
+35-45,doctor,Drama,18
+35-45,educator,Drama,907
+35-45,engineer,Drama,1137
+35-45,entertainment,Drama,37
+35-45,executive,Drama,446
+35-45,healthcare,Drama,200
+35-45,homemaker,Thriller,30
+35-45,lawyer,Drama,122
+35-45,librarian,Drama,599
+35-45,marketing,Drama,393
+35-45,none,Action,73
+35-45,other,Drama,945
+35-45,programmer,Action,476
+35-45,salesman,Comedy,70
+35-45,scientist,Drama,348
+35-45,student,Drama,348
+35-45,technician,Action,133
+35-45,writer,Drama,607
+45 and older,administrator,Drama,1086
+45 and older,artist,Drama,124
+45 and older,doctor,Drama,71
+45 and older,educator,Drama,2255
+45 and older,engineer,Drama,450
+45 and older,entertainment,Thriller,56
+45 and older,executive,Drama,326
+45 and older,healthcare,Drama,685
+45 and older,homemaker,Thriller,16
+45 and older,lawyer,Drama,136
+45 and older,librarian,Drama,705
+45 and older,marketing,Drama,99
+45 and older,none,Comedy,66
+45 and older,other,Drama,907
+45 and older,programmer,Drama,434
+45 and older,retired,Drama,727
+45 and older,salesman,Drama,74
+45 and older,scientist,Drama,118
+45 and older,student,Drama,2391
+45 and older,technician,Drama,274
+45 and older,writer,Drama,435
