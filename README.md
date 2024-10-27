@@ -1,6 +1,6 @@
 # Python  -  Pipeline for Premji Invest Assignment
 
-Setup:
+## Setup:
 1. Install the requirements.txt file
 2. Running main.py file will generate the results and it will be under data/pipeline1 and data/pipeline2.
 
