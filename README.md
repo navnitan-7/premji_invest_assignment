@@ -27,7 +27,9 @@
   Finding the most similar movies based on user ratings.
 
   users|   movie |   rating 
-  -----------------------
+  
   U1  |    M1    |   R1
+  
   U2  |    M1    |   R2
+  
   U1  |    M2    |   R3
