@@ -10,14 +10,6 @@ multi_node_cpu_cluster:
   aws_attributes:
     availability: "ON_DEMAND"  # Choose on-demand or spot instances for AWS
 
-libraries:
-  - pypi:
-      package: "pandas"
-  - pypi:
-      package: "numpy"
-  - maven:
-      coordinates: "org.apache.spark:spark-avro_2.12:3.3.0"  # Example Spark library
-
 environments:
     defualt:
         strict_path_adjustment_policy: true
