@@ -1,5 +1,8 @@
 # Python  -  Pipeline for Premji Invest Assignment
 
+Setup:
+1. Install the requirements.txt file
+2. Running main.py file will generate the results and it will be under data/pipeline1 and data/pipeline2.
 
 ## Pipeline 1: 
 1. Data Sources: (search for only two keywords: HDFC, Tata Motors, fetch 5 latest articles for each ticker)
