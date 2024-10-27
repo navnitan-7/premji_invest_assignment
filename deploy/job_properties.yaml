@@ -1,14 +1,14 @@
 multi_node_cpu_cluster:
   cluster_name: "multi_node_cpu_cluster"
-  spark_version: "13.3.x-cpu-ml-scala2.12"  # Use the latest stable CPU runtime
-  node_type_id: "i3.xlarge"  # Example AWS node type (adjust based on cloud provider)
-  driver_node_type_id: "i3.xlarge"  # Same as worker node or another type as needed
+  spark_version: "13.3.x-cpu-ml-scala2.12" 
+  node_type_id: "i3.xlarge" 
+  driver_node_type_id: "i3.xlarge"  
   autoscale:
     min_workers: 2
     max_workers: 10
   enable_elastic_disk: true
   aws_attributes:
-    availability: "ON_DEMAND"  # Choose on-demand or spot instances for AWS
+    availability: "ON_DEMAND"
 
 environments:
     defualt:
