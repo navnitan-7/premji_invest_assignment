@@ -25,7 +25,9 @@
   4. Given one movie, find top 10 similar movies. The similarity calculation can change according to the algorithm.
   Described below is one way of finding similar movies. You can define your own algorithm.
   Finding the most similar movies based on user ratings.
-  users   movie    rating 
-  U1      M1       R1
-  U2      M1       R2
-  U1      M2       R3
+
+  users|   movie |   rating 
+  -----------------------
+  U1  |    M1    |   R1
+  U2  |    M1    |   R2
+  U1  |    M2    |   R3
