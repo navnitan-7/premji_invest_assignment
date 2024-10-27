@@ -11,6 +11,7 @@ from src.utils.utils  import get_driver, update_status, get_status,age_group, ge
 
 def pipeline1():
     try:
+        raise Exception
         driver = get_driver()
         today = date.today()
         # update_status("pipeline1", "in_progress", today)
@@ -46,6 +47,7 @@ def pipeline1():
         update_status("pipeline1", "success", today)
         print("Success")
     except:
+        today = date.today()
         update_status("pipeline1", "failed", today)
         raise_alert()
 
