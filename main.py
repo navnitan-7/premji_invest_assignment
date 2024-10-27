@@ -37,11 +37,11 @@ def pipeline1():
         df_fin['body'] = df_fin['url'].apply(lambda url: pd.Series(fin_get_article_body(url)))
 
         df_article = pd.concat([df_fin,  df_ys], ignore_index=True, axis=0)
-        df_article["sentiment_score"] = df_article[["company", "title","body"]].apply(lambda x: sentiment_analysis())
+        df_article["sentiment_score"] = df_article["body"].apply(lambda x: pd.Series(sentiment_analysis()))
         df_article.to_csv(f"{base_path}/pipeline1/staging/{today}.csv", index=False)
         df_final =  df_article.groupby(['company']).agg(
             sentiment=('sentiment_score', 'mean')
-        )
+        ).reset_index()
         df_final.to_csv(f"{base_path}/pipeline1/published/{today}.csv", index=False)
         update_status("pipeline1", "success", today)
         print("Success")
